@@ -26,7 +26,7 @@ a {
 
 /* header "start" */
 
-.conteiner {
+.container {
     max-width: 1230px;
     padding: 0 15px;
     margin: 0 auto;
@@ -39,6 +39,7 @@ a {
     min-height: 100vh;
     background-position: center;
     position: relative;
+    margin-bottom: 80px;
 }
 
 header::before {
@@ -149,7 +150,7 @@ header::after {
     opacity: 0.3;
 }
 
-.header__decore-text--2{
+.header__decore-text--2 {
     z-index: 4;
     left: 265px;
 }
@@ -165,3 +166,108 @@ header::after {
 }
 
 /* header "end" */
+
+/* main "start" */
+
+.info {
+    background-image: url(../image/info-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* margin-top: 120px; */
+}
+
+.info::before {
+    content: "";
+    position: absolute;
+    height: 180px;
+    background-color: #262C27;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    transform: translateY(-120px);
+    z-index: 1;
+}
+
+.info__top {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 65vh;
+    padding-top: 100px;
+}
+
+.info__top-text {
+    padding-top: 245px;
+    width: 290px;
+    color: #fff;
+    position: relative;
+}
+
+.info__top-text--two {
+    table-layout: 125px;
+}
+
+.info__top-text--two {
+    border-bottom: 1px solid #fff;
+}
+
+.info__top-img {
+    position: relative;
+    z-index: 6;
+}
+
+.popup_btn {
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.popup_btn span {
+    padding-top: 12px;
+    display: block;
+    color: #fff;
+}
+
+.info__btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.info__specs {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.info__specs-title {
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 67px;
+    width: 250px;
+}
+
+.info__specs-list{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 30px 0;
+    width: 565px;
+    font-weight: 700;
+
+}
+
+.info__specs-item{
+    margin-bottom: 25px;
+    display: flex;
+    gap: 25px;
+
+}
+
+.info__specs-caption{
+    width: 185px;
+
+}
