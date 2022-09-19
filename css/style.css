@@ -154,6 +154,19 @@ header::after {
     font-weight: 700;
 }
 
+.header__content-box h1 {
+    cursor: pointer;
+    transition: .5s;
+}
+
+.header__content-box h1:hover {
+    text-shadow:
+        0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 100px #03e9f4;
+}
+
 .header__title {
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -569,6 +582,7 @@ header::after {
 }
 
 .footer__form-input {
+    font-family: inherit;
     background-color: transparent;
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
     display: block;
@@ -576,7 +590,11 @@ header::after {
     padding: 10px 10px;
     margin-bottom: 57px;
     color: var(--third_color_for_something);
+    outline: none;
 }
+
+
+
 
 .footer__form-input::placeholder {
     font-weight: 700;
@@ -870,7 +888,7 @@ header::after {
         font-size: 34px;
     }
 
-    .footer__logo svg{
+    .footer__logo svg {
         width: 90%;
     }
 
