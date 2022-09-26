@@ -649,6 +649,16 @@ header::after {
     margin-bottom: 50px;
 }
 
+.footer__gallery-item{
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: .1s linear;
+}
+
+.footer__gallery-item:hover{
+    filter: grayscale(0);
+}
+
 .footer__menu-list {
     font-weight: 700;
     display: flex;
