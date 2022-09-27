@@ -1,1 +1,1 @@
->_[Link to "Safari" GitHub Pages](https://andrejb596.github.io/MartaUP/)_
+>_[Link to "MartaUP" GitHub Pages](https://andrejb596.github.io/MartaUP/)_
